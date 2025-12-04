@@ -1,7 +1,7 @@
 import { useState, useEffect, FormEvent } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { productsApi } from '../api/fakeApi';
-import type { ProductFormData, ProductStatus } from '../types';
+import type { ProductFormData } from '../types';
 import { Toast } from '../components/Toast';
 
 /**
